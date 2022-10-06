@@ -1,7 +1,7 @@
 package ru.netology.service;
 
-import org.testng.annotations.Test;
-import org.testng.asserts.Assertion;
+
+import org.junit.Test;
 
 public class CashbackHackServiceTest {
     @Test
@@ -11,6 +11,6 @@ public class CashbackHackServiceTest {
         int expected = 200;
         int actual = service.remain(800);
 
-        org.testng.Assert.assertEquals(actual, expected);
+        org.junit.Assert.assertEquals(actual, expected);
     }
 }
