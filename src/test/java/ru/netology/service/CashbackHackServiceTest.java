@@ -8,8 +8,8 @@ public class CashbackHackServiceTest {
 
     public void CashBackFromRemain () {
         CashbackHackService service = new CashbackHackService();
-        int expected = 200;
-        int actual = service.remain(800);
+        int expected = 100;
+        int actual = service.remain(900);
 
         org.junit.Assert.assertEquals(actual, expected);
     }
